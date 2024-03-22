@@ -1,0 +1,88 @@
+.container {
+    background-color: #f8f5f5;
+}
+
+.container__heading {
+    height: 200px;
+    background-color: var(--color-primary);
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__heading-name {
+    letter-spacing: 2px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: #fff;
+}
+
+.container__heading-contact-list {
+    margin-top: 30px;
+    display: flex;
+}
+
+.container__heading-contact-item {
+}
+
+.container__heading-contact-item--link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 3px;
+    background-color: var(--color-primary-opacity);
+    opacity: 1;
+    font-size: 15px;
+    transition: transform .5s, font ease-in .2s, border .6s, background .4s, -webkit-transform .5s, -webkit-box-shadow .5s;
+}
+
+.container__heading-contact-item--link:hover {
+    font-size: 17px;
+}
+
+.container__heading-contact-item--link-blue:hover {
+    border: 1px solid #5178c7;
+    background-color: #537ac8;
+}
+
+.container__heading-contact-item--link-black:hover {
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.container__heading-contact-item--link-red:hover {
+    border: 1px solid #d93633;
+    background-color: #dc403d;
+}
+
+.container__header {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.container__content-heading {
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.container__content-review {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.container__contact-pd {
+    padding-bottom: 56px;
+}
